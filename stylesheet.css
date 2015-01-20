@@ -1,0 +1,56 @@
+body {
+  background: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.padded {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+
+#banner {
+  background: url(images/background3.png);
+  background-size:cover;
+  color: white;
+  height: 600px;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+#banner h1{
+  font-size: 70px;
+  text-shadow: 1px 1px 2px #727272;
+}
+
+#banner p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#footer {
+  background-color: #384047 ;
+  color: grey;
+  text-align: center;
+  height: 100px;
+  padding-top: 40px;
+  font-weight: 100;
+  font-size: 15px;
+  opacity: 1px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: grey;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#footer a:hover {
+  color:#F092B0;
+  font-weight: 500;
+}
